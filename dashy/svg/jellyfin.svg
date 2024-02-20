@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="105.79379mm"
+   height="105.79042mm"
+   viewBox="0 0 105.79379 105.79042"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="B"
+       gradientUnits="userSpaceOnUse"
+       x1="126.15"
+       y1="219.32001"
+       x2="457.67999"
+       y2="410.73001">
+      <stop
+         offset="0%"
+         stop-color="#aa5cc3"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#00a4dc"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#B"
+       id="linearGradient1"
+       gradientUnits="userSpaceOnUse"
+       x1="126.15"
+       y1="219.32001"
+       x2="457.67999"
+       y2="410.73001"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,37.041667,80.697917)" />
+    <linearGradient
+       xlink:href="#B"
+       id="linearGradient2"
+       gradientUnits="userSpaceOnUse"
+       x1="126.15"
+       y1="219.32001"
+       x2="457.67999"
+       y2="410.73001"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,37.041667,80.697917)" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-51.877996,-95.535749)">
+    <path
+       d="m 87.460666,167.76435 c 2.283355,4.5773 32.385004,4.52967 34.641894,0 2.25425,-4.52437 -12.67354,-31.69179 -17.31962,-31.69708 -4.64873,0 -19.605628,27.11979 -17.322274,31.69708 z"
+       id="use2"
+       style="fill:url(#linearGradient2);stroke-width:0.264583" />
+    <path
+       d="m 52.585938,191.0371 c 6.871229,13.79802 97.594202,13.63927 104.391352,0 6.79715,-13.63927 -38.19789,-95.50135 -52.19435,-95.50135 -14.001753,0 -59.068231,81.70333 -52.197002,95.50135 z m 18.002249,-11.97239 c -4.503208,-9.04081 25.029583,-62.57396 34.200043,-62.57396 9.1731,0 38.65562,53.63104 34.20004,62.57396 -4.45294,8.94291 -63.896874,9.04081 -68.400083,0 z"
+       id="use4"
+       style="fill:url(#linearGradient1);stroke-width:0.264583" />
+  </g>
+</svg>

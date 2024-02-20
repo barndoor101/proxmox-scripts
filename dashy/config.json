@@ -1,0 +1,962 @@
+{
+    "appConfig": {
+      "theme": "material",
+      "layout": "horizontal",
+      "iconSize": "large",
+      "startingView": "default",
+      "defaultOpeningMethod": "sametab",
+      "statusCheck": false,
+      "statusCheckInterval": 60,
+      "faviconApi": "clearbit",
+      "routingMode": "history",
+      "enableMultiTasking": false,
+      "widgetsAlwaysUseProxy": false,
+      "webSearch": {
+        "disableWebSearch": false,
+        "searchEngine": "duckduckgo",
+        "openingMethod": "sametab",
+        "searchBangs": {}
+      },
+      "enableFontAwesome": true,
+      "enableMaterialDesignIcons": true,
+      "hideComponents": {
+        "hideHeading": true,
+        "hideNav": true,
+        "hideSearch": false,
+        "hideSettings": true,
+        "hideFooter": true
+      },
+      "auth": {
+        "enableGuestAccess": false,
+        "users": [
+          {
+            "user": "andrew",
+            "hash": "6c3fa7fbfe607d0d1dfc8dec06c94300e6ae8f511325cb34748e92628252ae0d",
+            "type": "admin"
+          }
+        ],
+        "enableKeycloak": false
+      },
+      "showSplashScreen": false,
+      "preventWriteToDisk": false,
+      "preventLocalSave": false,
+      "disableConfiguration": false,
+      "disableConfigurationForNonAdmin": true,
+      "allowConfigEdit": true,
+      "enableServiceWorker": false,
+      "disableContextMenu": true,
+      "disableUpdateChecks": false,
+      "disableSmartSort": false,
+      "enableErrorReporting": false,
+      "language": "en",
+      "customCss": "#filter-tiles{width:300px}a.item::before{display:none!important}div.bounce{text-indent:0!important}",
+      "customColors": {
+        "high-contrast-light": {
+          "primary": "#0d0d0d",
+          "background": "#f5f5f5",
+          "background-darker": "#fff",
+          "font-headings": "Tahoma, sans-serif",
+          "font-body": "Arial, sans-serif",
+          "font-monospace": "'Courier New', monospace"
+        },
+        "material": {
+          "primary": "#363636",
+          "background": "#ffffff",
+          "background-darker": "#4285f4",
+          "info": "#04e4f4",
+          "success": "#20e253",
+          "warning": "#d4d015",
+          "error": "#fca016",
+          "danger": "#f80363",
+          "neutral": "#272f4d",
+          "white": "#fff",
+          "black": "#000",
+          "item-group-background": "none",
+          "medium-grey": "#5e6474",
+          "item-background": "#fbfbfb",
+          "item-background-hover": "#fff",
+          "transparent-70": "rgba(0,0,0,0.7019607843137254)",
+          "transparent-50": "rgba(0,0,0,0.5019607843137255)",
+          "transparent-30": "rgba(0,0,0,0.30196078431372547)",
+          "transparent-white-70": "hsla(0,0%,100%,0.7019607843137254)",
+          "transparent-white-50": "rgba(0,0,0,0.5019607843137255)",
+          "transparent-white-30": "hsla(0,0%,100%,0.30196078431372547)",
+          "heading-text-color": "#fff",
+          "nav-link-text-color": "#fff",
+          "nav-link-background-color": "#0c4eba",
+          "nav-link-text-color-hover": "#363636",
+          "nav-link-background-color-hover": "rgba(96,125,139,0.2)",
+          "nav-link-border-color": "#0c4eba",
+          "nav-link-border-color-hover": "#363636",
+          "nav-link-shadow": "1px 1px 2px #232323",
+          "nav-link-shadow-hover": "1px 1px 2px #232323",
+          "item-text-color": "#363636",
+          "item-text-color-hover": "#363636",
+          "item-group-outer-background": "none",
+          "item-group-heading-text-color": "none",
+          "item-group-heading-text-color-hover": "#363636",
+          "settings-text-color": "#363636",
+          "settings-background": "#ffffff",
+          "config-settings-color": "#473f3f",
+          "config-settings-background": "#f5f5f5",
+          "config-code-color": "#363636",
+          "config-code-background": "#fff",
+          "code-editor-color": "#000",
+          "code-editor-background": "#fff",
+          "widget-text-color": "#363636",
+          "widget-background-color": "#eee",
+          "widget-accent-color": "#eee",
+          "widget-base-background": "transparent",
+          "interactive-editor-color": "#473f3f",
+          "interactive-editor-background": "#f5f5f5",
+          "interactive-editor-background-darker": "#fff",
+          "cloud-backup-color": "#f5f5f5",
+          "cloud-backup-background": "#141b33",
+          "search-container-background": "#4285f4",
+          "search-field-background": "#ffffff",
+          "search-label-color": "#ffffff",
+          "footer-text-color": "#f5f5f5",
+          "footer-text-color-link": "#363636",
+          "footer-background": "#4285f4",
+          "context-menu-background": "#fff",
+          "context-menu-color": "#363636",
+          "context-menu-secondary-color": "#f5f5f5",
+          "side-bar-background": "#4285f4",
+          "side-bar-background-lighter": "#0c4eba",
+          "side-bar-color": "#363636",
+          "side-bar-item-background": "#f5f5f5",
+          "side-bar-item-color": "#363636",
+          "workspace-web-content-background": "#eee",
+          "minimal-view-background-color": "#eee",
+          "minimal-view-title-color": "#4285f4",
+          "minimal-view-settings-color": "#363636",
+          "minimal-view-section-heading-color": "#363636",
+          "minimal-view-section-heading-background": "#f6f6f6",
+          "minimal-view-search-background": "#fff",
+          "minimal-view-search-color": "#363636",
+          "minimal-view-group-color": "#363636",
+          "minimal-view-group-background": "#fff",
+          "login-form-color": "#363636",
+          "login-form-background": "#eee",
+          "login-form-background-secondary": "#4285f4",
+          "about-page-color": "#363636",
+          "about-page-background": "#eee",
+          "about-page-accent": "#363636",
+          "scroll-bar-color": "#363636",
+          "scroll-bar-background": "#4285f4",
+          "highlight-color": "#eee",
+          "highlight-background": "#363636",
+          "progress-bar": "#363636",
+          "loading-screen-color": "#363636",
+          "loading-screen-background": "#eee",
+          "status-check-tooltip-background": "#fff",
+          "status-check-tooltip-color": "#363636",
+          "welcome-popup-background": "#4285f4",
+          "welcome-popup-text-color": "#f5f5f5",
+          "toast-background": "#363636",
+          "toast-color": "#eee",
+          "description-tooltip-background": "#fff",
+          "description-tooltip-color": "#473f3f",
+          "outline-color": "none",
+          "curve-factor": "3px",
+          "curve-factor-navbar": "8px",
+          "curve-factor-small": "2px",
+          "dimming-factor": "0.7",
+          "scroll-bar-width": "8px",
+          "header-height": "6.3rem",
+          "footer-height": "140px",
+          "item-group-padding": "5px",
+          "item-shadow": "none",
+          "item-hover-shadow": "#f5f5f5",
+          "item-icon-transform": "none",
+          "item-icon-transform-hover": "none",
+          "item-group-shadow": "none",
+          "context-menu-shadow": "0 1px 3px rgba(0,0,0,0.12156862745098039),0 1px 2px rgba(0,0,0,0.23921568627450981)",
+          "section-max-height": "3000px",
+          "settings-container-shadow": "none",
+          "side-bar-width": "3.5rem",
+          "tooltip-arrow-size": "6px",
+          "tooltip-width": "250px",
+          "tooltip-padding": "0.2rem",
+          "font-body": "\"Raleway\",serif",
+          "font-headings": "\"Francois One\",serif",
+          "font-monospace": "\"PTMono\",\"Courier New\",monospace"
+        }
+      }
+    },
+    "pageInfo": {
+      "title": "Dashy",
+      "description": "",
+      "navLinks": [
+        {
+          "title": "GitHub",
+          "path": "https://github.com/Lissy93/dashy",
+          "target": "newtab"
+        },
+        {
+          "title": "Documentation",
+          "path": "https://dashy.to/docs",
+          "target": "newtab"
+        }
+      ],
+      "footerText": ""
+    },
+    "sections": [
+      {
+        "name": "Infrastructure",
+        "icon": "mdi-domain",
+        "items": [
+          {
+            "title": "OpenWRT - Study",
+            "description": "192.168.1.1",
+            "icon": "openwrt.svg",
+            "url": "http://192.168.1.1",
+            "tags": [
+              "internal"
+            ],
+            "statusCheck": true,
+            "color": "#3366cc",
+            "id": "0_1505_openwrtstudy"
+          },
+          {
+            "title": "OpenWRT - Living",
+            "description": "192.168.1.2",
+            "icon": "openwrt.svg",
+            "url": "http://192.168.1.2",
+            "tags": [
+              "internal"
+            ],
+            "statusCheck": true,
+            "color": "#3366cc",
+            "id": "1_1505_openwrtliving"
+          },
+          {
+            "title": "Proxmox",
+            "description": "192.168.1.10:8006",
+            "icon": "proxmox.svg",
+            "url": "http://192.168.1.10:8006",
+            "statusCheck": true,
+            "statusCheckUrl": "http://192.168.1.10:8006",
+            "statusCheckAllowInsecure": true,
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "2_1505_proxmox"
+          },
+          {
+            "title": "Proxmox Backup",
+            "description": "192.168.1.15:8007",
+            "icon": "proxmox.svg",
+            "url": "https://192.168.1.15:8007",
+            "statusCheck": true,
+            "statusCheckAllowInsecure": true,
+            "color": "#3366cc",
+            "id": "3_1505_proxmoxbackup"
+          },
+          {
+            "title": "Nginx Proxy",
+            "description": "192.168.1.21:81",
+            "icon": "nginxproxymanager.svg",
+            "url": "http://192.168.1.21:81",
+            "tags": [
+              "internal"
+            ],
+            "statusCheck": true,
+            "statusCheckUrl": "http://192.168.1.21:81",
+            "color": "#3366cc",
+            "id": "4_1505_nginxproxy"
+          },
+          {
+            "title": "TrueNAS",
+            "description": "192.168.1.50",
+            "icon": "truenas.svg",
+            "url": "https://192.168.1.50",
+            "statusCheck": true,
+            "statusCheckUrl": "https://192.168.1.50",
+            "statusCheckAllowInsecure": true,
+            "tags": [
+              "internal"
+            ],
+            "color": "#3366cc",
+            "id": "5_1505_truenas"
+          },
+          {
+            "title": "ReadyNAS",
+            "description": "192.168.1.5/admin",
+            "icon": "netgear.svg",
+            "url": "https://192.168.1.5/admin",
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "6_1505_readynas"
+          },
+          {
+            "title": "Cloudflare",
+            "description": "",
+            "icon": "cloudflare.svg",
+            "url": "https://dash.cloudflare.com",
+            "target": "newtab",
+            "id": "7_1505_cloudflare"
+          },
+          {
+            "title": "Crowdsec",
+            "icon": "crowdsec.svg",
+            "url": "https://app.crowdsec.net/security-engines",
+            "target": "newtab",
+            "id": "8_1505_crowdsec"
+          },
+          {
+            "title": "sipgate",
+            "icon": "sipgate.svg",
+            "url": "https://app.sipgate.com",
+            "target": "newtab",
+            "id": "9_1505_sipgate"
+          }
+        ],
+        "filteredItems": [
+          {
+            "title": "OpenWRT - Study",
+            "description": "192.168.1.1",
+            "icon": "openwrt.svg",
+            "url": "http://192.168.1.1",
+            "tags": [
+              "internal"
+            ],
+            "statusCheck": true,
+            "color": "#3366cc",
+            "id": "0_1505_openwrtstudy"
+          },
+          {
+            "title": "OpenWRT - Living",
+            "description": "192.168.1.2",
+            "icon": "openwrt.svg",
+            "url": "http://192.168.1.2",
+            "tags": [
+              "internal"
+            ],
+            "statusCheck": true,
+            "color": "#3366cc",
+            "id": "1_1505_openwrtliving"
+          },
+          {
+            "title": "Proxmox",
+            "description": "192.168.1.10:8006",
+            "icon": "proxmox.svg",
+            "url": "http://192.168.1.10:8006",
+            "statusCheck": true,
+            "statusCheckUrl": "http://192.168.1.10:8006",
+            "statusCheckAllowInsecure": true,
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "2_1505_proxmox"
+          },
+          {
+            "title": "Proxmox Backup",
+            "description": "192.168.1.15:8007",
+            "icon": "proxmox.svg",
+            "url": "https://192.168.1.15:8007",
+            "statusCheck": true,
+            "statusCheckAllowInsecure": true,
+            "color": "#3366cc",
+            "id": "3_1505_proxmoxbackup"
+          },
+          {
+            "title": "Nginx Proxy",
+            "description": "192.168.1.21:81",
+            "icon": "nginxproxymanager.svg",
+            "url": "http://192.168.1.21:81",
+            "tags": [
+              "internal"
+            ],
+            "statusCheck": true,
+            "statusCheckUrl": "http://192.168.1.21:81",
+            "color": "#3366cc",
+            "id": "4_1505_nginxproxy"
+          },
+          {
+            "title": "TrueNAS",
+            "description": "192.168.1.50",
+            "icon": "truenas.svg",
+            "url": "https://192.168.1.50",
+            "statusCheck": true,
+            "statusCheckUrl": "https://192.168.1.50",
+            "statusCheckAllowInsecure": true,
+            "tags": [
+              "internal"
+            ],
+            "color": "#3366cc",
+            "id": "5_1505_truenas"
+          },
+          {
+            "title": "ReadyNAS",
+            "description": "192.168.1.5/admin",
+            "icon": "netgear.svg",
+            "url": "https://192.168.1.5/admin",
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "6_1505_readynas"
+          },
+          {
+            "title": "Cloudflare",
+            "description": "",
+            "icon": "cloudflare.svg",
+            "url": "https://dash.cloudflare.com",
+            "target": "newtab",
+            "id": "7_1505_cloudflare"
+          },
+          {
+            "title": "Crowdsec",
+            "icon": "crowdsec.svg",
+            "url": "https://app.crowdsec.net/security-engines",
+            "target": "newtab",
+            "id": "8_1505_crowdsec"
+          },
+          {
+            "title": "sipgate",
+            "icon": "sipgate.svg",
+            "url": "https://app.sipgate.com",
+            "target": "newtab",
+            "id": "9_1505_sipgate"
+          }
+        ],
+        "displayData": {
+          "sortBy": "default",
+          "rows": 1,
+          "cols": 1,
+          "collapsed": false,
+          "hideForGuests": false
+        }
+      },
+      {
+        "name": "Services",
+        "icon": "mdi-cog",
+        "displayData": {
+          "sortBy": "default",
+          "rows": 1,
+          "cols": 1,
+          "collapsed": false,
+          "hideForGuests": false
+        },
+        "items": [
+          {
+            "title": "AdGuard",
+            "description": "192.168.1.20",
+            "icon": "adguard.svg",
+            "url": "http://192.168.1.20",
+            "statusCheck": true,
+            "statusCheckUrl": "http://192.168.1.20",
+            "statusCheckAllowInsecure": true,
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "0_836_adguard"
+          },
+          {
+            "title": "VaultWarden",
+            "description": "192.168.1.25:8000",
+            "icon": "bitwarden.svg",
+            "url": "https://vault.berryman.dev",
+            "statusCheck": true,
+            "statusCheckUrl": "https://vault.berryman.dev",
+            "id": "1_836_vaultwarden"
+          },
+          {
+            "title": "Jellyfin",
+            "description": "192.168.1.50:30013",
+            "icon": "jellyfin.svg",
+            "url": "https://jellyfin.berryman.dev",
+            "statusCheck": true,
+            "statusCheckUrl": "https://jellyfin.berryman.dev",
+            "id": "2_836_jellyfin"
+          },
+          {
+            "title": "Nextcloud",
+            "description": "192.168.1.50:9001",
+            "icon": "nextcloud.svg",
+            "url": "https://nextcloud.berryman.dev",
+            "statusCheck": true,
+            "id": "3_836_nextcloud"
+          },
+          {
+            "title": "Gitea",
+            "description": "192.168.1.50:10037",
+            "icon": "gitea.svg",
+            "url": "https://gitea.berryman.dev",
+            "statusCheck": true,
+            "id": "4_836_gitea"
+          },
+          {
+            "title": "Paperless-ngx",
+            "description": "192.168.1.50:30070",
+            "icon": "paperlessngx.svg",
+            "url": "https://paperless.berryman.dev",
+            "statusCheck": true,
+            "id": "5_836_paperlessngx"
+          },
+          {
+            "title": "Cyberchef",
+            "description": "192.168.1.50:10219",
+            "icon": "cyberchef.svg",
+            "url": "https://cyberchef.berryman.dev",
+            "statusCheck": true,
+            "id": "6_836_cyberchef"
+          },
+          {
+            "title": "FreePBX",
+            "description": "192.168.1.23",
+            "icon": "mdi-asterisk",
+            "url": "https://192.168.1.23",
+            "statusCheck": true,
+            "statusCheckAllowInsecure": true,
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "7_836_freepbx"
+          },
+          {
+            "title": "Linkwarden",
+            "description": "192.168.1.27:3000",
+            "icon": "linkwarden.svg",
+            "url": "https://linkwarden.berryman.dev",
+            "statusCheck": true,
+            "id": "8_836_linkwarden"
+          },
+          {
+            "title": "ProjectSend",
+            "description": "192.168.1.50:10127",
+            "icon": "projectsend.svg",
+            "url": "https://projectsend.berryman.dev",
+            "statusCheck": true,
+            "id": "9_836_projectsend"
+          },
+          {
+            "title": "CommaFeed",
+            "description": "192.168.1.28:8082",
+            "icon": "commafeed.svg",
+            "url": "https://rss.berryman.dev",
+            "statusCheck": true,
+            "id": "10_836_commafeed"
+          },
+          {
+            "title": "Opengist",
+            "description": "192.168.1.29:6157",
+            "icon": "opengist.svg",
+            "url": "https://opengist.berryman.dev",
+            "statusCheck": true,
+            "id": "11_836_opengist"
+          },
+          {
+            "title": "Wireguard",
+            "description": "192.168.1.22:10086",
+            "icon": "wireguard.svg",
+            "url": "http://192.168.1.22:10086",
+            "target": "newtab",
+            "statusCheck": true,
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "12_836_wireguard"
+          },
+          {
+            "title": "Grocy",
+            "description": "192.168.1.31",
+            "icon": "grocy.svg",
+            "url": "https://grocy.berryman.dev",
+            "target": "sametab",
+            "statusCheck": true,
+            "id": "13_836_grocy"
+          }
+        ],
+        "filteredItems": [
+          {
+            "title": "AdGuard",
+            "description": "192.168.1.20",
+            "icon": "adguard.svg",
+            "url": "http://192.168.1.20",
+            "statusCheck": true,
+            "statusCheckUrl": "http://192.168.1.20",
+            "statusCheckAllowInsecure": true,
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "0_836_adguard"
+          },
+          {
+            "title": "VaultWarden",
+            "description": "192.168.1.25:8000",
+            "icon": "bitwarden.svg",
+            "url": "https://vault.berryman.dev",
+            "statusCheck": true,
+            "statusCheckUrl": "https://vault.berryman.dev",
+            "id": "1_836_vaultwarden"
+          },
+          {
+            "title": "Jellyfin",
+            "description": "192.168.1.50:30013",
+            "icon": "jellyfin.svg",
+            "url": "https://jellyfin.berryman.dev",
+            "statusCheck": true,
+            "statusCheckUrl": "https://jellyfin.berryman.dev",
+            "id": "2_836_jellyfin"
+          },
+          {
+            "title": "Nextcloud",
+            "description": "192.168.1.50:9001",
+            "icon": "nextcloud.svg",
+            "url": "https://nextcloud.berryman.dev",
+            "statusCheck": true,
+            "id": "3_836_nextcloud"
+          },
+          {
+            "title": "Gitea",
+            "description": "192.168.1.50:10037",
+            "icon": "gitea.svg",
+            "url": "https://gitea.berryman.dev",
+            "statusCheck": true,
+            "id": "4_836_gitea"
+          },
+          {
+            "title": "Paperless-ngx",
+            "description": "192.168.1.50:30070",
+            "icon": "paperlessngx.svg",
+            "url": "https://paperless.berryman.dev",
+            "statusCheck": true,
+            "id": "5_836_paperlessngx"
+          },
+          {
+            "title": "Cyberchef",
+            "description": "192.168.1.50:10219",
+            "icon": "cyberchef.svg",
+            "url": "https://cyberchef.berryman.dev",
+            "statusCheck": true,
+            "id": "6_836_cyberchef"
+          },
+          {
+            "title": "FreePBX",
+            "description": "192.168.1.23",
+            "icon": "mdi-asterisk",
+            "url": "https://192.168.1.23",
+            "statusCheck": true,
+            "statusCheckAllowInsecure": true,
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "7_836_freepbx"
+          },
+          {
+            "title": "Linkwarden",
+            "description": "192.168.1.27:3000",
+            "icon": "linkwarden.svg",
+            "url": "https://linkwarden.berryman.dev",
+            "statusCheck": true,
+            "id": "8_836_linkwarden"
+          },
+          {
+            "title": "ProjectSend",
+            "description": "192.168.1.50:10127",
+            "icon": "projectsend.svg",
+            "url": "https://projectsend.berryman.dev",
+            "statusCheck": true,
+            "id": "9_836_projectsend"
+          },
+          {
+            "title": "CommaFeed",
+            "description": "192.168.1.28:8082",
+            "icon": "commafeed.svg",
+            "url": "https://rss.berryman.dev",
+            "statusCheck": true,
+            "id": "10_836_commafeed"
+          },
+          {
+            "title": "Opengist",
+            "description": "192.168.1.29:6157",
+            "icon": "opengist.svg",
+            "url": "https://opengist.berryman.dev",
+            "statusCheck": true,
+            "id": "11_836_opengist"
+          },
+          {
+            "title": "Wireguard",
+            "description": "192.168.1.22:10086",
+            "icon": "wireguard.svg",
+            "url": "http://192.168.1.22:10086",
+            "target": "newtab",
+            "statusCheck": true,
+            "color": "#3366cc",
+            "tags": [
+              "internal"
+            ],
+            "id": "12_836_wireguard"
+          },
+          {
+            "title": "Grocy",
+            "description": "192.168.1.31",
+            "icon": "grocy.svg",
+            "url": "https://grocy.berryman.dev",
+            "target": "sametab",
+            "statusCheck": true,
+            "id": "13_836_grocy"
+          }
+        ]
+      },
+      {
+        "name": "Google",
+        "icon": "si-google",
+        "displayData": {
+          "sortBy": "default",
+          "rows": 1,
+          "cols": 1,
+          "collapsed": false,
+          "hideForGuests": false
+        },
+        "items": [
+          {
+            "title": "Gmail",
+            "icon": "gmail.svg",
+            "url": "https://mail.google.com",
+            "id": "0_605_gmail"
+          },
+          {
+            "title": "Google Keep",
+            "icon": "keep.svg",
+            "url": "https://keep.google.com",
+            "id": "1_605_googlekeep"
+          },
+          {
+            "title": "Google Calendar",
+            "icon": "calendar.svg",
+            "url": "https://calendar.google.com",
+            "id": "2_605_googlecalendar"
+          },
+          {
+            "title": "YouTube",
+            "icon": "youtube.svg",
+            "url": "https://www.youtube.com",
+            "id": "3_605_youtube"
+          },
+          {
+            "title": "Google Docs",
+            "icon": "googledocs.svg",
+            "url": "https://docs.google.com",
+            "id": "4_605_googledocs"
+          }
+        ],
+        "filteredItems": [
+          {
+            "title": "Gmail",
+            "icon": "gmail.svg",
+            "url": "https://mail.google.com",
+            "id": "0_605_gmail"
+          },
+          {
+            "title": "Google Keep",
+            "icon": "keep.svg",
+            "url": "https://keep.google.com",
+            "id": "1_605_googlekeep"
+          },
+          {
+            "title": "Google Calendar",
+            "icon": "calendar.svg",
+            "url": "https://calendar.google.com",
+            "id": "2_605_googlecalendar"
+          },
+          {
+            "title": "YouTube",
+            "icon": "youtube.svg",
+            "url": "https://www.youtube.com",
+            "id": "3_605_youtube"
+          },
+          {
+            "title": "Google Docs",
+            "icon": "googledocs.svg",
+            "url": "https://docs.google.com",
+            "id": "4_605_googledocs"
+          }
+        ]
+      },
+      {
+        "name": "Links",
+        "icon": "mdi-link",
+        "displayData": {
+          "sortBy": "default",
+          "rows": 1,
+          "cols": 1,
+          "collapsed": false,
+          "hideForGuests": false
+        },
+        "items": [
+          {
+            "title": "Reddit",
+            "icon": "reddit.svg",
+            "url": "https://www.reddit.com/",
+            "id": "0_513_reddit"
+          },
+          {
+            "title": "eBay",
+            "icon": "ebay.svg",
+            "url": "https://www.ebay.co.uk/",
+            "id": "1_513_ebay"
+          },
+          {
+            "title": "Cricinfo",
+            "icon": "espn.svg",
+            "url": "https://www.espncricinfo.com/",
+            "id": "2_513_cricinfo"
+          },
+          {
+            "title": "Sky Sports",
+            "icon": "sky.svg",
+            "url": "https://www.skysports.com/",
+            "id": "3_513_skysports"
+          },
+          {
+            "title": "Gixen",
+            "icon": "fas fa-bullseye-arrow",
+            "url": "https://www.gixen.com",
+            "id": "4_513_gixen"
+          },
+          {
+            "title": "Rumble",
+            "icon": "rumble.svg",
+            "url": "https://www.rumble.com",
+            "id": "5_513_rumble"
+          },
+          {
+            "title": "Instagram",
+            "icon": "instagram.svg",
+            "url": "https://www.instagram.com",
+            "id": "6_513_instagram"
+          },
+          {
+            "title": "LinkedIn",
+            "icon": "linkedin.svg",
+            "url": "https://www.linkedin.com",
+            "id": "7_513_linkedin"
+          },
+          {
+            "title": "9GAG",
+            "icon": "9gag.svg",
+            "url": "https://www.9gag.com",
+            "id": "8_513_gag"
+          },
+          {
+            "title": "ZoHo Mail",
+            "icon": "zoho.svg",
+            "url": "https://mail.zoho.eu",
+            "id": "9_513_zohomail"
+          },
+          {
+            "title": "BTDigg",
+            "icon": "mdi-cog-outline",
+            "url": "https://btdig.com/",
+            "id": "10_513_btdigg"
+          },
+          {
+            "title": "Paimon.moe",
+            "icon": "mdi-gamepad-circle",
+            "url": "https://paimon.moe/",
+            "id": "11_513_paimonmoe"
+          },
+          {
+            "title": "LiveFootballOnTV",
+            "icon": "fas fa-futbol",
+            "url": "https://www.live-footballontv.com/",
+            "target": "sametab",
+            "id": "12_513_livefootballontv"
+          }
+        ],
+        "filteredItems": [
+          {
+            "title": "Reddit",
+            "icon": "reddit.svg",
+            "url": "https://www.reddit.com/",
+            "id": "0_513_reddit"
+          },
+          {
+            "title": "eBay",
+            "icon": "ebay.svg",
+            "url": "https://www.ebay.co.uk/",
+            "id": "1_513_ebay"
+          },
+          {
+            "title": "Cricinfo",
+            "icon": "espn.svg",
+            "url": "https://www.espncricinfo.com/",
+            "id": "2_513_cricinfo"
+          },
+          {
+            "title": "Sky Sports",
+            "icon": "sky.svg",
+            "url": "https://www.skysports.com/",
+            "id": "3_513_skysports"
+          },
+          {
+            "title": "Gixen",
+            "icon": "fas fa-bullseye-arrow",
+            "url": "https://www.gixen.com",
+            "id": "4_513_gixen"
+          },
+          {
+            "title": "Rumble",
+            "icon": "rumble.svg",
+            "url": "https://www.rumble.com",
+            "id": "5_513_rumble"
+          },
+          {
+            "title": "Instagram",
+            "icon": "instagram.svg",
+            "url": "https://www.instagram.com",
+            "id": "6_513_instagram"
+          },
+          {
+            "title": "LinkedIn",
+            "icon": "linkedin.svg",
+            "url": "https://www.linkedin.com",
+            "id": "7_513_linkedin"
+          },
+          {
+            "title": "9GAG",
+            "icon": "9gag.svg",
+            "url": "https://www.9gag.com",
+            "id": "8_513_gag"
+          },
+          {
+            "title": "ZoHo Mail",
+            "icon": "zoho.svg",
+            "url": "https://mail.zoho.eu",
+            "id": "9_513_zohomail"
+          },
+          {
+            "title": "BTDigg",
+            "icon": "mdi-cog-outline",
+            "url": "https://btdig.com/",
+            "id": "10_513_btdigg"
+          },
+          {
+            "title": "Paimon.moe",
+            "icon": "mdi-gamepad-circle",
+            "url": "https://paimon.moe/",
+            "id": "11_513_paimonmoe"
+          },
+          {
+            "title": "LiveFootballOnTV",
+            "icon": "fas fa-futbol",
+            "url": "https://www.live-footballontv.com/",
+            "target": "sametab",
+            "id": "12_513_livefootballontv"
+          }
+        ]
+      }
+    ]
+  }

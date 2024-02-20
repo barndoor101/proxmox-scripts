@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="222.000000pt"
+   height="222.000000pt"
+   viewBox="0 0 222.000000 222.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg1"
+   sodipodi:docname="grocy.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="3.0371622"
+     inkscape:cx="148"
+     inkscape:cy="148"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <metadata
+     id="metadata1">
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata>
+  <g
+     transform="matrix(0.1,0,0,-0.1,18.407483,222.3776)"
+     fill="#337ab7"
+     stroke="none"
+     id="g1">
+    <path
+       d="M 983,2210 C 515,2144 155,1792 39,1290 10,1166 3,932 24,812 81,484 296,208 589,85 714,32 782,18 942,13 c 112,-4 171,-1 250,12 247,41 496,156 611,284 l 37,41 -5,172 c -3,95 -8,316 -11,491 l -6,319 -267,-8 c -146,-3 -342,-9 -436,-13 l -170,-6 -8,-213 c -5,-118 -7,-215 -5,-217 2,-2 81,-7 176,-11 l 172,-7 v -27 c 0,-65 -12,-90 -51,-111 -60,-30 -172,-44 -241,-30 -249,52 -347,418 -180,677 105,163 290,242 537,231 68,-4 153,-15 195,-25 41,-11 77,-16 80,-11 9,13 43,526 37,542 -8,22 -124,64 -236,87 -115,23 -342,34 -438,20 z"
+       id="path1" />
+  </g>
+</svg>

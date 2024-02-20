@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="642.20074"
+   height="642.20074"
+   id="netgear logo"
+   sodipodi:docname="netgear.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3998738"
+     inkscape:cx="321.10037"
+     inkscape:cy="321.10037"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="netgear logo" />
+  <path
+     d="m 13.572651,354.87608 h 20.16486 v -47.51876 h 0.21997 l 36.9164,47.51876 h 20.14861 v -77.55232 h -20.14861 v 47.40628 h -0.21122 l -36.92515,-47.40628 h -20.16486 v 77.55232"
+     id="N"
+     style="fill:#172fa6" />
+  <path
+     d="m 169.32472,294.40902 v -17.08526 h -44.13171 v 77.55232 h 44.13171 v -17.06026 h -23.95936 v -13.39824 h 22.72202 v -17.06026 h -22.72202 v -12.9483 h 23.95936"
+     id="E"
+     style="fill:#172fa6" />
+  <path
+     d="m 237.07832,294.40902 h 16.68532 v -17.08526 h -53.50548 v 17.08526 h 16.66031 v 60.46706 h 20.15985 v -60.46706"
+     id="T"
+     style="fill:#172fa6" />
+  <path
+     d="m 316.34292,311.59426 v 15.83542 h 16.46034 c -0.83739,8.93633 -7.49901,13.47324 -16.26036,13.47324 -13.28576,0 -20.48481,-12.2359 -20.48481,-24.27182 0,-11.82345 6.89909,-24.48429 20.17235,-24.48429 8.12393,0 13.99816,4.93686 16.7728,12.33589 l 19.12249,-8.01145 c -6.68662,-14.5106 -19.02251,-21.72215 -34.97041,-21.72215 -24.99672,0 -42.05698,16.57282 -42.05698,41.78201 0,24.37181 16.97277,40.91963 41.34457,40.91963 12.9733,0 24.3718,-4.61189 31.9833,-15.2105 6.8991,-9.66123 7.69899,-19.32246 7.92396,-30.64598 h -40.00725"
+     id="G"
+     style="fill:#172fa6" />
+  <use
+     id="E2"
+     xlink:href="#E"
+     transform="translate(263.48417)" />
+  <path
+     d="m 508.93015,325.97362 h -16.7603 l 8.34891,-24.69676 h 0.18747 z m 5.43679,15.43548 5.04934,13.47323 h 21.50967 l -29.22116,-77.56482 h -22.00961 l -29.83359,77.56482 h 21.39719 l 5.3618,-13.47323 h 27.74636"
+     id="A"
+     style="fill:#172fa6" />
+  <path
+     d="m 588.13226,292.74673 h 1.94974 c 6.59914,0 13.99817,1.22484 13.99817,9.67373 0,8.4489 -7.39903,9.66124 -13.99817,9.66124 h -1.94974 z m 19.95988,30.34602 c 11.01105,-1.94974 16.96027,-11.19853 16.96027,-21.90962 0,-16.56033 -11.62347,-23.85937 -26.94646,-23.85937 H 567.9849 v 77.55232 h 20.14736 v -29.82109 h 0.2 l 19.035,29.82109 h 25.09671 l -24.3718,-31.78333"
+     id="R"
+     style="fill:#172fa6" />
+</svg>
